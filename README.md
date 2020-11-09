@@ -3,6 +3,8 @@
 Eventide is a discord dark theme that was made to emulate the blue-purple aspect of a sunset. It was written with
 minimalism and configurability in mind so it can be easy to change, fix, and improve.
 
+![Theme in use](https://i.imgur.com/8OYYSYz.png)
+
 # Usage
 
 You can either just copy the [`eventide.css`](eventide.css) file to have no updates, or insert the lines below for automatic updates. 
