@@ -1,0 +1,72 @@
+/* 
+    Copyright (c) 2020 Equity
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+*/
+
+:root {
+    /* Color palette */
+    --eventide-primary: #29293d;
+    --eventide-secondary: #222233;
+    --eventide-secondary-alt: #21212c;
+    --eventide-tertiary: #1c1c2c;
+    
+    --eventide-input-box: #222230;
+
+    /* Scrollbar */
+    --eventide-scrollbar-track: var(--eventide-primary);
+    --eventide-scrollbar-thumb: var(--eventide-secondary);
+}
+
+.theme-dark {
+    --background-primary: var(--eventide-primary);
+    --background-secondary: var(--eventide-secondary);
+    --background-secondary-alt: var(--eventide-secondary-alt);
+    --background-tertiary: var(--eventide-tertiary);
+    --background-accent: var(--background-primary);
+
+    /* Chat input box */
+    --channeltextarea-background: var(--eventide-input-box);
+    --scrollbar-auto-thumb: var(--eventide-secondary);
+    --scrollbar-auto-track: var(--eventide-primary);
+}
+
+/* People column */
+.theme-dark .container-1D34oG { background-color: var(--background-primary); }
+
+/* Modals */
+.theme-dark .root-1gCeng { background-color: var(--background-primary); }
+.theme-dark .footer-2gL1pp { background-color: var(--background-tertiary); }
+
+/* Invite/join server page fuckery */
+.theme-dark .root-1gCeng div[class*=color],
+.theme-dark .root-1gCeng input, 
+.theme-dark .root-1gCeng button { color: rgb(216, 213, 225); font-weight: 425; }
+
+.theme-dark .root-1gCeng button[class|=container] { background-color: var(--background-tertiary) !important; }
+.theme-dark .root-1gCeng div[class*=footer] { box-shadow: unset; }
+.theme-dark .root-1gCeng button[class*=footer] { background-color: var(--background-primary) !important;  }
+
+/* Popup when you click a mention */
+.theme-dark .headerNormal-T_seeN { background-color: var(--background-tertiary); }
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background-color: var(--background-secondary); }
+
+/* Mention autocompletion in chat box */
+.theme-dark .autocomplete-1vrmpx { background-color: var(--background-tertiary) }
+.theme-dark .selected-1Tbx07 { background-color: var(--background-secondary); }
