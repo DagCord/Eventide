@@ -54,15 +54,6 @@
 .theme-dark .root-1gCeng { background-color: var(--background-primary); }
 .theme-dark .footer-2gL1pp { background-color: var(--background-tertiary); }
 
-/* Invite/join server page fuckery */
-.theme-dark .root-1gCeng div[class*=color],
-.theme-dark .root-1gCeng input, 
-.theme-dark .root-1gCeng button { color: rgb(216, 213, 225); font-weight: 425; }
-
-.theme-dark .root-1gCeng button[class|=container] { background-color: var(--background-tertiary) !important; }
-.theme-dark .root-1gCeng div[class*=footer] { box-shadow: unset; }
-.theme-dark .root-1gCeng button[class*=footer] { background-color: var(--background-primary) !important;  }
-
 /* Popup when you click a mention */
 .theme-dark .headerNormal-T_seeN { background-color: var(--background-tertiary); }
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 { background-color: var(--background-secondary); }
