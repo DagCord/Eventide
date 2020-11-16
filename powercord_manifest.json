@@ -1,0 +1,9 @@
+{
+    "name": "Eventide",
+    "description": "A Dark Theme For Discord",
+    "version": "1.0.0",
+    "author": "Equity",
+    "license": "MIT",
+    "theme": "./eventide.css"
+}
+ 
