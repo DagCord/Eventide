@@ -1,5 +1,7 @@
 # Eventide, a dark discord theme
 
+### I did not write this originally. This was written by Equity.
+
 Eventide is a discord dark theme that was made to emulate the blue-purple aspect of a sunset. It was written with
 minimalism and configurability in mind so it can be easy to change, fix, and improve.
 
